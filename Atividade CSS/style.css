@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+
+#azul {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#vermelho {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    top:50px;
+}
+
+#preto {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    top:50px;
+}
+
+#verde {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top:50px;
+}
+
+#amarelo {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    top:25px;
+}
+
+.container {
+    background-color: black;
+    width: 350px;
+    height: 350px;
+}
+
+#bloco1 {
+    position: fixed;
+    float: right;
+    top: 0;
+}
+
+#bloco2 {
+    position: fixed;
+    float: right;
+    bottom: 0;
+}
+
+#bloco3 {
+    position: fixed;
+    float: left;
+    top: 0;
+    right: 0;
+}
+
+#bloco4 {
+    position: fixed;
+    float: left;
+    bottom: 0;
+    right: 0;
+}
+
+#posicionamento3 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+#container1 {
+    width: 1000px;
+    height: 200px;
+    color: white;
+    margin:10px;
+    border-radius: 50px;
+    text-align: right;
+    padding: 20px;
+    margin:20px;
+}
+
+#container2 {
+    width: 1000px;
+    height: 200px;
+    color: white;
+    margin:10px;
+    overflow-y: scroll;
+    text-align: justify;
+    border: 3px red solid;
+    padding: 20px;
+}
+
+#b1 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top:0;
+}
+
+#b2 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top:110px;
+}
+
+#b3 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top:220px;
+}
+
+#b4 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 110px;
+    top:0;
+}
+
+#b5 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 220px;
+    top:0;
+}
+
+#b6 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 110px;
+    top: 110px;
+}
+
+#b7 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom:0;
+}
+
+#b8 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 110px;
+    bottom:0;
+}
+
+#b9 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 220px;
+    bottom:0;
+}
+
+#b-10 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 110px;
+    bottom:110px;
+}
+
+#b-11 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 110px;
+}
+
+#b-12 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 220px;
+}

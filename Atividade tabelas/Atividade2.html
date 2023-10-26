@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    th, 
+    td { 
+        border: 1px solid rgb(0, 0, 0);
+        }
+    
+    th,
+    td { 
+        padding:15px;
+    }
+    </style>
+<body>
+    <table style="border-collapse:collapse; text-align: center; width: 50%"">
+        <thead style="height:50px; width:150px;" border="1">
+            <tr>
+                <th colspan="4">TOPO</th>
+            </tr>
+        </thead>
+        <tbody style="height:350px; width:500px;" border="1">
+            <tr>
+                <td rowspan="3">MENU</td>
+                <td colspan="4">CONTEÚDO</td>
+            </tr>
+        </tbody>
+        <tfoot style="height:50px; width:150px;" border="1">
+            <tr>
+                <td colspan="4">RODAPÉ</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
